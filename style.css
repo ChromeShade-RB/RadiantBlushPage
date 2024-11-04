@@ -30,7 +30,7 @@ header p {
     color: #666;
 }
 
-.about, .contact {
+.about, .social-media {
     width: 100%;
     max-width: 600px;
     text-align: center;
@@ -41,14 +41,29 @@ header p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.about h2, .contact h2 {
+.about h2, .social-media h2 {
     color: #ff66cc;
     margin-bottom: 10px;
 }
 
-.contact a {
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
     color: #ff66cc;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media ul li a:hover {
+    text-decoration: underline;
 }
 
 footer {
