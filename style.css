@@ -30,7 +30,7 @@ header p {
     color: #666;
 }
 
-.about, .social-media {
+.about, .social-media, .contact {
     width: 100%;
     max-width: 600px;
     text-align: center;
@@ -41,7 +41,7 @@ header p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.about h2, .social-media h2 {
+.about h2, .social-media h2, .contact h2 {
     color: #ff66cc;
     margin-bottom: 10px;
 }
@@ -63,6 +63,15 @@ header p {
 }
 
 .social-media ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact a {
+    color: #ff66cc;
+    text-decoration: none;
+}
+
+.contact a:hover {
     text-decoration: underline;
 }
 
