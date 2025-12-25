@@ -1,15 +1,15 @@
 /* ===== CSS Variables ===== */
 :root {
-    --primary: #ff3e9d;
-    --primary-glow: rgba(255, 62, 157, 0.4);
-    --secondary: #00f0ff;
-    --secondary-glow: rgba(0, 240, 255, 0.3);
-    --accent: #b14eff;
-    --dark-bg: #0a0a0f;
-    --card-bg: rgba(20, 20, 35, 0.8);
-    --card-border: rgba(255, 62, 157, 0.2);
+    --primary: #FB62E7;
+    --primary-glow: rgba(251, 98, 231, 0.4);
+    --secondary: #FFBDF6;
+    --secondary-glow: rgba(255, 189, 246, 0.3);
+    --accent: #FB62E7;
+    --dark-bg: #0d0d0d;
+    --card-bg: rgba(13, 13, 13, 0.9);
+    --card-border: rgba(251, 98, 231, 0.25);
     --text-primary: #ffffff;
-    --text-secondary: rgba(255, 255, 255, 0.7);
+    --text-secondary: rgba(255, 255, 255, 0.75);
     --text-muted: rgba(255, 255, 255, 0.5);
 }
 
@@ -51,8 +51,8 @@ body {
     width: 100%;
     height: 100%;
     background-image: 
-        linear-gradient(rgba(255, 62, 157, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 62, 157, 0.03) 1px, transparent 1px);
+        linear-gradient(rgba(251, 98, 231, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(251, 98, 231, 0.03) 1px, transparent 1px);
     background-size: 50px 50px;
 }
 
@@ -168,7 +168,7 @@ h2 {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: rgba(255, 62, 157, 0.15);
+    background: rgba(251, 98, 231, 0.15);
     border: 1px solid var(--primary);
     padding: 8px 18px;
     border-radius: 50px;
@@ -202,8 +202,8 @@ section {
 }
 
 section:hover {
-    border-color: rgba(255, 62, 157, 0.4);
-    box-shadow: 0 0 30px rgba(255, 62, 157, 0.1);
+    border-color: rgba(251, 98, 231, 0.4);
+    box-shadow: 0 0 30px rgba(251, 98, 231, 0.1);
 }
 
 section p {
@@ -218,12 +218,12 @@ section p + p {
 /* ===== Current Project ===== */
 .current-project {
     border-color: var(--secondary);
-    background: linear-gradient(135deg, rgba(0, 240, 255, 0.05), rgba(177, 78, 255, 0.05));
+    background: linear-gradient(135deg, rgba(255, 189, 246, 0.08), rgba(251, 98, 231, 0.05));
 }
 
 .current-project:hover {
     border-color: var(--secondary);
-    box-shadow: 0 0 30px rgba(0, 240, 255, 0.15);
+    box-shadow: 0 0 30px rgba(255, 189, 246, 0.15);
 }
 
 .current-project h2 {
@@ -256,8 +256,8 @@ section p + p {
 }
 
 .tag {
-    background: rgba(0, 240, 255, 0.1);
-    border: 1px solid rgba(0, 240, 255, 0.3);
+    background: rgba(255, 189, 246, 0.1);
+    border: 1px solid rgba(255, 189, 246, 0.3);
     color: var(--secondary);
     padding: 5px 14px;
     border-radius: 20px;
@@ -349,7 +349,7 @@ section p + p {
 
 .contact-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(255, 62, 157, 0.4);
+    box-shadow: 0 10px 30px rgba(251, 98, 231, 0.4);
 }
 
 /* ===== Footer ===== */
